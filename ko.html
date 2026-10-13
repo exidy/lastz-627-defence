@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>서버 #627: 수도 방어 방법 (SVS 수도 쟁탈전)</title>
+<style>
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR","Hiragino Sans","Yu Gothic","Noto Sans JP","PingFang SC","Microsoft YaHei","Noto Sans SC","Thonburi","Leelawadee UI","Noto Sans Thai",sans-serif;max-width:720px;margin:0 auto;padding:16px;line-height:1.55;color:#1d232b;background:#f6f4ef}
+h1{font-size:1.5em;margin:.2em 0}h2{font-size:1.15em;margin-top:1.6em;border-bottom:2px solid #c0392b;padding-bottom:4px}
+.sub{color:#555;margin-top:0}.box{background:#fff;border-radius:10px;padding:12px 14px;margin:12px 0;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.key{border-left:5px solid #c0392b}svg{width:100%;height:auto;display:block}
+table{border-collapse:collapse;width:100%;font-size:.9em;background:#fff}th,td{border:1px solid #bbb;padding:6px;text-align:left}th{background:#2c3e50;color:#fff}
+small{color:#666}
+.lang{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}.lang a{padding:4px 10px;border-radius:14px;background:#fff;border:1px solid #bbb;color:#2c3e50;text-decoration:none;font-size:.9em}.lang a.cur{background:#c0392b;border-color:#c0392b;color:#fff;font-weight:bold}
+</style>
+</head>
+<body>
+<nav class="lang"><a href="index.html" lang="en">English</a> <a class="cur" href="ko.html" lang="ko">한국어</a> <a href="ja.html" lang="ja">日本語</a> <a href="zh.html" lang="zh-Hans">简体中文</a> <a href="th.html" lang="th">ไทย</a> <a href="pl.html" lang="pl">Polski</a> <a href="sh.html" lang="sh">Srpskohrvatski</a></nav>
+<h1>서버 #627: 우리는 이렇게 수도를 방어한다</h1>
+<p class="sub">SVS 수도 쟁탈전(Capital Clash). 방어 전용. 끝까지 읽어 주세요. 짧습니다.</p>
+
+<h2>1. 왜 이 가이드는 방어만 다루는가</h2>
+<p>우리가 방어한다는 것은 침공권을 잃었다는 뜻입니다. 즉, 침공 서버가 우리보다 강합니다. 1대1로 싸워서는 이길 수 없습니다. 그들보다 더 잘 협력해야 이깁니다.</p>
+
+<h2>2. 누가 방어하는가</h2>
+<p>상위 6개 연맹이 수도를 방어합니다. #627에는 다음 연맹이 있습니다:</p>
+<ul>
+<li>T10 유닛을 가진 <b>매우 강한 연맹 2개</b>.</li>
+<li>레벨 30, 31 플레이어가 많지만 T10 유닛은 없는 <b>비슷한 전력의 연맹 4개</b>.</li>
+</ul>
+
+<h2>3. 영토가 곧 힘이다</h2>
+<p>우리는 힘을 보여서 이깁니다. 힘은 우리가 영토를 장악한 곳에서만 보일 수 있습니다. 땅을 장악하면 빠르게 집결(rally)하고 지원할 수 있습니다. 적이 땅을 장악하면 적도 우리에게 똑같이 할 수 있습니다.</p>
+<div class="box">
+<svg viewBox="0 0 600 110" role="img" aria-label="영토 → 힘 → 결과">
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c0392b"/></marker></defs>
+<rect x="10" y="30" width="160" height="50" rx="8" fill="#2c3e50"/><text x="90" y="61" fill="#fff" font-size="18" text-anchor="middle">영토</text>
+<rect x="220" y="30" width="160" height="50" rx="8" fill="#2c3e50"/><text x="300" y="61" fill="#fff" font-size="18" text-anchor="middle">힘</text>
+<rect x="430" y="30" width="160" height="50" rx="8" fill="#c0392b"/><text x="510" y="61" fill="#fff" font-size="18" text-anchor="middle">결과</text>
+<line x1="172" y1="55" x2="216" y2="55" stroke="#c0392b" stroke-width="4" marker-end="url(#a)"/>
+<line x1="382" y1="55" x2="426" y2="55" stroke="#c0392b" stroke-width="4" marker-end="url(#a)"/>
+</svg>
+</div>
+
+<h2>4. 결과는 전투 전에 정해진다</h2>
+<p>수도와 포탑 3개는 서버 시간 12:00부터 14:00까지 공격할 수 있습니다. 하지만 결과의 대부분은 12:00 전에 정해집니다.</p>
+<p>우리는 영토를 점령하는 방법을 이미 압니다. 시즌 건물로 빈 공간을 줄이는 방법도 압니다. 진짜 문제는 이것입니다: <b>적이 얼마나 잘 착륙하고 확장하는가?</b> 침공자는 서버 시간 00:30부터 텔레포트할 수 있습니다. 진흙 지대(mud)의 모든 빈틈은 적이 착륙할 수 있는 곳입니다. 적이 착륙해서 커지면 영토를 장악하고, 12:00에 힘을 보일 수 있습니다.</p>
+<div class="box">
+<svg viewBox="0 0 600 90" role="img" aria-label="하루 타임라인">
+<rect x="10" y="35" width="580" height="20" fill="#ddd"/>
+<rect x="10" y="35" width="420" height="20" fill="#e67e22"/>
+<rect x="430" y="35" width="160" height="20" fill="#c0392b"/>
+<text x="10" y="25" font-size="14">00:00 리셋</text>
+<text x="70" y="78" font-size="14">00:30 적 착륙 가능</text>
+<text x="430" y="25" font-size="14">12:00 개방</text>
+<text x="590" y="78" font-size="14" text-anchor="end">14:00 종료</text>
+</svg>
+<small>주황색: 착륙과 확장 단계. 빨간색: 본 전투. 시간은 서버 시간입니다.</small>
+</div>
+
+<h2>5. 적은 우리의 가장 약한 곳을 공격한다</h2>
+<p>적은 바보가 아닙니다. 가장 약한 연맹과 가장 약한 기지를 노려 교두보를 만들 것입니다. 우리가 협력하지 않으면 전투는 <b>우리의 가장 약한 연맹 대 적의 가장 강한 연맹</b>이 됩니다. 그 싸움은 집니다.</p>
+
+<h2>우리가 할 일</h2>
+
+<h2>A. 적의 계획을 우리의 이점으로 바꾼다</h2>
+<div class="box key">
+<p>우리는 적이 어디에 착륙하려 할지 압니다. 그래서 가장 강한 연맹 2개를 돌파 예상 지점 근처에 둡니다. 적이 그곳에 착륙하면 가장 강한 플레이어들이 빠르게 대응할 수 있습니다.</p>
+</div>
+
+<h2>B. 작전실(War Room) 채팅 하나</h2>
+<p>새 <b>작전실(War Room)</b> 채팅을 만듭니다. 리셋부터 전투가 끝날 때까지 운영합니다. 전투 전용입니다.</p>
+<p>기존 NAP 채팅은 관리 용도로만 씁니다. 전투 중에는 쓰지 마세요.</p>
+
+<h2>C. 두 가지 역할</h2>
+<div class="box">
+<svg viewBox="0 0 600 230" role="img" aria-label="지휘 체계">
+<rect x="200" y="10" width="200" height="50" rx="8" fill="#c0392b"/><text x="300" y="42" fill="#fff" font-size="18" text-anchor="middle">총사령관</text>
+<rect x="420" y="15" width="170" height="40" rx="8" fill="#fff" stroke="#2c3e50" stroke-width="2"/><text x="505" y="41" font-size="16" text-anchor="middle">작전실</text>
+<line x1="400" y1="35" x2="420" y2="35" stroke="#2c3e50" stroke-width="3"/>
+<line x1="300" y1="60" x2="300" y2="95" stroke="#2c3e50" stroke-width="3"/>
+<line x1="50" y1="95" x2="550" y2="95" stroke="#2c3e50" stroke-width="3"/>
+<g font-size="14" text-anchor="middle" fill="#fff">
+<line x1="50" y1="95" x2="50" y2="120" stroke="#2c3e50" stroke-width="3"/><rect x="5" y="120" width="90" height="60" rx="6" fill="#2c3e50"/><text x="50" y="145">구역</text><text x="50" y="165">지휘관 1</text>
+<line x1="150" y1="95" x2="150" y2="120" stroke="#2c3e50" stroke-width="3"/><rect x="105" y="120" width="90" height="60" rx="6" fill="#2c3e50"/><text x="150" y="145">구역</text><text x="150" y="165">지휘관 2</text>
+<line x1="250" y1="95" x2="250" y2="120" stroke="#2c3e50" stroke-width="3"/><rect x="205" y="120" width="90" height="60" rx="6" fill="#2c3e50"/><text x="250" y="145">구역</text><text x="250" y="165">지휘관 3</text>
+<line x1="350" y1="95" x2="350" y2="120" stroke="#2c3e50" stroke-width="3"/><rect x="305" y="120" width="90" height="60" rx="6" fill="#2c3e50"/><text x="350" y="145">구역</text><text x="350" y="165">지휘관 4</text>
+<line x1="450" y1="95" x2="450" y2="120" stroke="#2c3e50" stroke-width="3"/><rect x="405" y="120" width="90" height="60" rx="6" fill="#2c3e50"/><text x="450" y="145">구역</text><text x="450" y="165">지휘관 5</text>
+<line x1="550" y1="95" x2="550" y2="120" stroke="#2c3e50" stroke-width="3"/><rect x="505" y="120" width="90" height="60" rx="6" fill="#2c3e50"/><text x="550" y="145">구역</text><text x="550" y="165">지휘관 6</text>
+</g>
+<text x="300" y="215" font-size="14" text-anchor="middle">6개 연맹마다 구역 지휘관 1명</text>
+</svg>
+</div>
+<h3>C.1 총사령관 (The General)</h3>
+<div class="box key">
+<p><b>총사령관의 목표는 하나입니다: 적이 절대 발판을 마련하지 못하게 한다.</b></p>
+<p>12:00에 전투가 시작될 때 진흙 지대에 적 기지가 <b>0개</b>여야 합니다.</p>
+<p>적 기지가 진흙 지대에 착륙하면 <b>즉시</b> 공격합니다. 기다리지 않습니다. 커지게 두지 않습니다.</p>
+</div>
+<ul>
+<li>총사령관은 가장 강한 플레이어가 <b>아니어야</b> 합니다. 가장 강한 플레이어는 싸워야 합니다.</li>
+<li>총사령관은 싸우지 않습니다. 전장 전체를 지켜보고 모든 착륙을 최대한 빨리 막는 것이 임무입니다.</li>
+<li>태블릿이나 PC가 가장 좋습니다. 화면이 클수록 지도가 더 많이 보입니다.</li>
+<li><b>총사령관이 집결(rally)을 요청하면 그것이 무엇보다 우선입니다.</b></li>
+</ul>
+<h3>C.2 구역 지휘관 (Area Commander)</h3>
+<ul>
+<li>각 연맹에서 1명, 보통 R4.</li>
+<li>각 구역 지휘관은 지도의 한 구역을 지휘합니다.</li>
+<li>자기 구역 안에서는 스스로 판단합니다. 전체 방향은 총사령관이 정합니다.</li>
+</ul>
+
+<h2>D. 시간 배분: 가장 중요한 점</h2>
+<div class="box key">
+<p>이 역할들은 리셋부터 전투가 끝날 때까지 채워져야 합니다. 13시간이 넘습니다. 한 사람이 혼자 할 수 없습니다. 그래서 총사령관과 각 구역 지휘관의 교대 <b>근무표</b>가 필요합니다.</p>
+<p><b>교대를 맡으면, 그 교대 시간 내내 접속해서 대기하겠다고 약속하는 것입니다.</b> 교대가 끝나기 전에 작전실에서 다음 사람에게 인계하세요.</p>
+</div>
+<div class="box">
+<svg viewBox="0 0 600 80" role="img" aria-label="교대 근무 타임라인">
+<g font-size="14" text-anchor="middle" fill="#fff">
+<rect x="10" y="20" width="140" height="36" fill="#7f8c8d"/><text x="80" y="43">교대 1</text>
+<rect x="152" y="20" width="140" height="36" fill="#95a5a6"/><text x="222" y="43">교대 2</text>
+<rect x="294" y="20" width="140" height="36" fill="#7f8c8d"/><text x="364" y="43">교대 3</text>
+<rect x="436" y="20" width="154" height="36" fill="#c0392b"/><text x="513" y="43">전투</text>
+</g>
+<text x="10" y="74" font-size="13">리셋</text><text x="590" y="74" font-size="13" text-anchor="end">14:00</text>
+<text x="436" y="74" font-size="13">12:00</text>
+</svg>
+<small>예시일 뿐입니다. 교대 시간 길이는 작전실에서 정합니다.</small>
+</div>
+<table>
+<tr><th>역할</th><th>교대 1<br>리셋 – __:__</th><th>교대 2<br>__:__ – __:__</th><th>교대 3<br>__:__ – 12:00</th><th>전투<br>12:00 – 14:00</th></tr>
+<tr><td><b>총사령관</b></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>구역 지휘관 1</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>구역 지휘관 2</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>구역 지휘관 3</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>구역 지휘관 4</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>구역 지휘관 5</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>구역 지휘관 6</td><td></td><td></td><td></td><td></td></tr>
+</table>
+
+<p><b>요약:</b> 땅을 지킨다. 진흙 지대에 적 기지 0개. 빈틈을 남기지 않는다. 가장 강한 연맹은 돌파 지점 근처에. 총사령관을 따른다. 모든 교대를 채운다.</p>
+</body>
+</html>
